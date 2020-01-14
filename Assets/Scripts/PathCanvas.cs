@@ -63,7 +63,7 @@ public class PathCanvas : MonoBehaviour
                 {
                     var leftOrRight = 0;
 
-                    if (node[i - 1].localPosition.y == destination.transform.localPosition.y)//if y position is equal to destination, road can be created only horizantall
+                    if (node[i - 1].localPosition.y == destination.transform.localPosition.y)//if y position is equal to destination, road can be created only horizantal
                     {
                         if (node[i - 1].localPosition.x - destination.transform.localPosition.x < 0)// and the node is left or right from to destination created only left or right
                         {
