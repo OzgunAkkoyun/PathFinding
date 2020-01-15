@@ -49,7 +49,7 @@ public class Character : MonoBehaviour
             {
                 inputVector.y+=100;
             }
-            Debug.Log("Path: "+path.node[i].localPosition);
+            Debug.Log("Path:"+path.node[i].localPosition);
             Debug.Log("Input: "+inputVector);
             if (inputVector != path.node[i].localPosition)//Input is not correct
             {
